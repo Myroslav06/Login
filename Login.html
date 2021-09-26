@@ -9,15 +9,15 @@
 </body>
     <script>
  let a=(null);
- {a=prompt("Введіть логін")};
- {c=prompt("Встановіть пароль")}
+ a=prompt("Введіть логін");
+ c=prompt("Встановіть пароль")
  do b=prompt("Підтвердіть пароль");
  while (b!=c); 
  {alert("Пароль вірний")};
 {alert("Ласкаво просимо до калькулятора "+ a )};
-first=prompt("Введіть перше число")
-doing=prompt("Введіть дію (*,/,+,-,^)")
-second=prompt("Введіть друге число")
+let first=prompt("Введіть перше число")
+let doing=prompt("Введіть дію (*,/,+,-,^)")
+let second=prompt("Введіть друге число")
 if (doing==="+") {alert (+first+ + second)}
 else if (doing==="-") {alert(first - second)}
 else if (doing==="*") {alert(first * +second)}
