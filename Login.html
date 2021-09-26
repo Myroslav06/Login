@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>
+     Login password
+    </title>
 </head>
 <body>
 </body>
     <script>
  let a=(null);
- a=prompt("Введіть логін")
- c=prompt("Встановіть пароль")
+ {a=prompt("Введіть логін")};
+ {c=prompt("Встановіть пароль")}
  do b=prompt("Підтвердіть пароль");
  while (b!=c); 
  {alert("Пароль вірний")};
-{alert("Ласкаво просимо "+ a )};
+{alert("Ласкаво просимо до калькулятора "+ a )};
+first=prompt("Введіть перше число")
+doing=prompt("Введіть дію (*,/,+,-,^)")
+second=prompt("Введіть друге число")
+if (doing==="+") {alert (+first+ + second)}
+else if (doing==="-") {alert(first - second)}
+else if (doing==="*") {alert(first * +second)}
+else if (doing==="/") {alert(first / second)}
+else if (doing==="^") {alert(first ** second)};
+ alert("Дякую за викорстання нашої програми");
 </script>
 </html>
